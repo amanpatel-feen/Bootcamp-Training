@@ -1,0 +1,144 @@
+.div1
+{
+    display: inline-block;
+
+}
+
+.div3
+{
+    display: inline-block;
+    /* float: right;     */
+}
+.div2
+{
+    display: inline-block;
+    /* float: right; */
+    
+    
+}
+.c1
+{
+    
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.main-container
+{
+    margin-left: 4em;
+    margin-right: 4em; 
+    width: 40em;
+    padding-right: 20em;
+    padding-left: 18em;
+    border-radius: 20px;
+}
+.form-container
+{
+    margin-left: 5em;
+    
+    margin-right: 5em;
+    border: 1px solid gray;
+    background-color: gray;
+    height: 100%;
+}
+/* .c2
+{
+    background-color: rgb(186, 193, 201);
+} */
+
+input[type=text],select, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=number]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  select
+  {
+      background-color: rgb(0, 198, 160);
+  }
+
+  .c4
+  {
+      background-color: rgb(236, 238, 241);
+      height: 3em;
+      padding-right: 2em;
+  }
+  button
+  {
+      float: right!important;
+      /* width: 100%; */
+      padding: 10px 18px ;
+
+      /* padding-bottom: 2em; */
+      margin: 8px 0;
+      /* height:2em; */
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: rgb(0, 198, 160);
+      color: white;
+
+      /* box-sizing: border-box; */
+  }
+  .c3
+  {
+    padding-right: 2em;
+    padding-left: 2em;
+    background-color: white;
+    
+  }
+
+  .inp{
+    width: 30%;
+    height: 100%;
+    /* padding: 12px 20px; */
+    /* margin: 8px 0; */
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+    background-color: gray;
+    float: right;
+    color: transparent;
+  }
+  
+  .attachments
+  {
+      border:1px solid gray;
+      /* padding: 12px 10px; */
+      margin: 8px 0;
+      height: 2em;
+      display: inline-block;
+      border-radius: 4px;
+      width: 100%;
+      
+      /* box-sizing: border-box; */
+    }
+    #file1
+    {
+        background-color: transparent;
+        border: 0px;
+    }
+
+
+  

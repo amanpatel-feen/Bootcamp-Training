@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="Stylesheet" href="style_form.css">
+    <nav>
+        <header style="color: rgb(0, 153, 153);">
+            
+            <div class="div1">
+                <h1 class="head1">TO THE NEW</h1>
+            </div>
+            <div class="c1">
+            <div class="div2">
+                <p class="p1">Home</p>
+            </div>
+            <div class="div3">
+                <p class="p1">Quick Help</p>
+            </div>
+            </div>
+        </header>
+        <hr>
+    </nav>
+    
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <div class="c2">
+                <h1 class="head2">Bug Report</h1>
+
+            </div>
+            <div class="c3">
+                <form>
+                    <label for="title" name="title">Title:*</label><br>
+                    <input type="text" id="title" name="title"><br><br>
+                    <label for="title">Description:*</label><br>
+                    <textarea id="description" name="description" style="height:200px"></textarea><br><br>
+                    <label for="title">Operating System:*</label><br>
+                    <select id="country" name="country">
+                        <option value="Windows XP" selected>Windows Xp</option>
+                        <option value="ubuntu">Ubuntu</option>
+                        <option value="fedora">Fedora</option>
+                    </select><br><br>
+                    <label for="title">Product:*</label><br>
+                    <select id="country" name="country">
+                        <option value="formoid" selected>Formoid</option>
+                        <option value="prime">Prime</option>
+                        <option value="netflix">Netflix</option>
+                    </select>
+                    <label for="title">Values:* </label><br>
+                    <input type="number" id="title" name="title"><br><br>
+                    <label for="title">License: </label><br>
+                    <input type="radio" name="free" value="free" class="rad"> Free  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="business" value="business" >Business<br><br>
+                    <label for="title">Severity:</label><br>
+                    <select id="country" name="country">
+                        <option value="formoid" selected>Critical</option>
+                        <option value="prime">Low</option>
+                        <option value="netflix">High</option>
+                    </select>
+
+                    <label for="title">Attachments:</label><br>
+                    <div class="attachments">
+                        <span>No files Selected</span>
+                            <div class="inp">
+                                <input type="file" id="file1" name="file1">
+                            </div>  
+                    </div>
+                    <br><br>
+                    
+            </div>
+            <div class="c4">
+                <button id="Send" >Send</button>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
