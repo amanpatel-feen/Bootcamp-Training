@@ -9,6 +9,8 @@
 #cont
 {
     background-color: white;
+    padding:0em 4em 0em 4em;
+    
 }
 body
 {
@@ -52,6 +54,10 @@ body
     /* text-align: center; */
     padding-top:10px;
 }
+#sec-row
+{
+    margin-bottom: 30px;
+}
 
 
 /* PARAGRAPH STYLING END  */
@@ -60,4 +66,36 @@ body
     /* text-transform: uppercase; */
 }
 
+
+hr{
+
+}
+
+.card-body
+{
+    text-align: center;
+    margin-right: 3em;
+}
+
+.card-img-top
+{
+    width:215px; 
+    height: 315px; 
+}
+.h7
+{
+    text-align: right;
+    color: white;
+    padding-top: .5em;
+}
+.h6
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#r
+{
+    background-color: gray;
+}
 
