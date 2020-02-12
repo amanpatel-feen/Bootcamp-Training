@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer 5</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function employee(){
+        var person = [{
+        firstName : "Aman",
+        
+        age     : 22,
+        salary  : 9000,
+        dob: "1-1-2000"
+    },
+    {
+        firstName : "P",
+        
+        age     : 44,
+        salary  : 1000,
+        dob: "1-2-2000"
+    },
+    {
+        firstName : "Gyan",
+        
+        age     : 29,
+        salary  : 500,
+        dob: "1-3-2000"
+    },
+    {
+        firstName : "Shyam",
+        age     : 42,
+        salary  : 3000,
+        dob: "1-4-1992"
+    },
+    {
+        firstName : "Ramu",
+        age     : 60,
+        salary  : 10000,
+        dob: "1-5-1960"
+    }];
+
+
+
+    //PRINT THE EMPLOYEE INFORMATION
+    console.log("Answer 5-1");
+    console.log(person);
+
+    var ar=[];
+    var k=0;
+    for(var i=0;i<person.length;i++)
+    {
+        if(person[i].salary>5000)
+        {
+            ar[k]=person[i];
+            k+=1;
+        }
+    }
+    //print the employees having salary greater than 5000
+    console.log("Answer 5-2");
+    console.log(ar);
+
+
+    var young=[],adult=[],old=[],j=0,k=0,l=0;
+    for(var i=0;i<person.length;i++)
+    {
+        if(person[i].age>0 && person[i].age<20)
+        {
+            young[j]=person[i];
+            j+=1;
+        }
+
+        if(person[i].age>20 && person[i].age<45)
+        {
+            adult[j]=person[i];
+            k+=1;
+        }
+
+        else
+        {
+            old[j]=person[i];
+            l+=1;
+        }
+    }
+
+    var group={"Young":young,"Adult":adult,"Old":old};
+    console.log("Answer 5-3");
+    console.log(group);
+
+
+    for(var i=0;i<person.length;i++)
+    {
+        if(person[i].salary<1000 && person[i].age<20)
+        {
+            person[i].salary=person[i].salary*5;
+        }
+    }
+    console.log("Answer 5-4");
+
+    console.log(person);
+
+}
+    
+    </script>
+
+<button type="button" onclick=" employee()">Try it</button>
+    
+</body>
+</html>

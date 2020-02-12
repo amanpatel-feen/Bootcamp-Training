@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script type="text/javascript">
+            function checkPalindrome() {
+            var revStr = "";
+            var str = document.getElementById("str").value;
+            revStr=str.split('').reverse('').join('');
+            if(str==revStr)
+            alert(str+"  is Palindrome");
+            else
+            alert(str+"  is Not Palindrome");
+            }
+
+    </script>
+    <form>
+        Enter a String<input type="text" id="str" name="string" /><br />
+        <input type="submit" value="Check" onclick="checkPalindrome();"/>
+  
+        Enter a radius<input type="text" id="rad" name="radius" /><br />
+        <input type="submit" value="Check" onclick="areaOfCircle();"/>
+    </form>
+</body>
+</html>
