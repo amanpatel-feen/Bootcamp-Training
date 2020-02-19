@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <!-- <link rel="stylesheet" href="css_practice.css"> -->
+    <style>
+        *{
+    box-sizing: border-box;
+}
+
+
+.container
+{
+    max-width:960px;
+    margin: auto;  
+}
+.box{
+    border: greenyellow 2px solid;
+    margin: 10px 10px;
+}
+
+
+.clr
+{
+    clear: both;
+}
+ .p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: red; */
+}
+.p2
+{
+    color: magenta;
+    font-size: 20px;
+}
+.p3{
+    font-style: italic;
+}
+.p4
+{
+    font: italic bold 12px/20px Georgia, serif;
+}
+.background
+{
+    background: url(https://static.vecteezy.com/system/resources/previews/000/244/234/non_2x/beautiful-background-of-the-night-sky-with-stars-dark-galaxy-bac-vector.jpg) no-repeat ;
+    max-width: 960px;
+    margin: 10px auto;
+    border: 2px solid greenyellow;   
+}
+h2,h2+p{
+    color: red;
+}
+.pseudo
+{
+    font-size: 20px;
+}
+
+ul>:first-child{
+    color: greenyellow;
+}
+ul>:nth-child(2){
+    color: green;
+}
+ul>:nth-child(3){
+    color: orange;
+}
+ul>:nth-child(4){
+    color: olivedrab;
+}
+ul>:nth-child(6){
+    color: saddlebrown;
+}
+ul>:nth-child(5){
+    color: seagreen;
+}
+h3+p{
+    color: steelblue;
+
+    a
+}
+p>span{
+    border: 2px solid gray;
+}
+p~p{
+    font-weight: bold;
+}
+input[type=text]
+{
+    /* background-color: indigo; */
+    height: 100px;
+    width: 400px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Font Properties</h1>
+        <div class="box" id="box1">
+            <p class="p1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Illum atque molestias possimus nemo quo incidunt odit repudiandae deleniti. Consequuntur, asperiores?
+            </p>
+        </div>
+        <div class="box" id="box2">
+            <p class="p2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Illum atque molestias possimus nemo quo incidunt odit repudiandae deleniti. Consequuntur, asperiores?
+            </p>
+        </div>
+        <div class="clr"></div>
+        <div class="box" id="box3">
+            <p class="p3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Illum atque molestias possimus nemo quo incidunt odit repudiandae deleniti. Consequuntur, asperiores?
+            </p>
+        </div>
+        <div class="box" id="box4">
+            <p class="p4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Illum atque molestias possimus nemo quo incidunt odit repudiandae deleniti. Consequuntur, asperiores?
+            </p>
+        </div>
+    </div>
+
+    <div class="background">
+        <h2>Background Properties</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, tempora?
+        </p>
+    </div>
+    <div class="pseudo">
+        <h3>Pseudo Classes</h3>
+        <ul class="list">
+            <li>First</li>
+            <li>Second</li>
+            <br>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>fifth</li>
+        </ul>
+    </div>
+
+    <div class="combinators">
+        <h3>Combinators</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit.<span> Enim obcaecati 
+            vel ad molestiae fuga incidunt,
+            facere dolor odi</span>
+            t, quaerat possimus voluptas. 
+            Voluptates quos quia rerum fuga, 
+            obcaecati totam. Nemo, voluptates.
+        </p>
+        <p>Lorem ipsum, dolor sit amet 
+            consectetur adipisicing elit. At, perspiciatis?
+        </p>
+    </div>
+
+
+    <div class="attribute">
+        <input type="text" id="text">
+    </div>
+
+    
+
+    
+</body>
+</html>
