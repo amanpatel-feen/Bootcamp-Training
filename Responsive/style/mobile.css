@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    nav {
+      display: none;
+    }
+    #togglebutton {
+      display: block;
+      float: right;
+    }
+    .info {
+      padding: 0 20px;
+    }
+    .info-left,
+    .info-right {
+      float: none;
+      display: block;
+      width: 100%;
+      margin-top: 60px;
+    }
+  }
+  @media (max-width: 480px) {
+    .content {
+      width: 100%;
+      margin: 0;
+    }
+    .content-left,
+    .content-right {
+      display: block;
+    }
+  }
+  #togglebutton:hover + aside {
+    display: block;
+  }
+  aside {
+    display: none;
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    width: 30%;
+    background: #6ec090;
+  }
+  aside ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  aside ul {
+    padding: 15px;
+    list-style: none;
+  }
+  aside ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  #generic {
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+  }
