@@ -49,7 +49,7 @@
         {
             var w1=wishes[0];
         }
-        else if(h1<16)
+        else if(h1<17)
         {
             var w1=wishes[1];
         }
@@ -70,6 +70,10 @@
             month=d.getMonth();
             month=m[month];
             year=d.getFullYear();
+            if(day<10)
+            {
+                day="0"+day;
+            }
             var date1=day+" "+month+" "+year;
             document.getElementById("date").innerHTML=date1;
 
