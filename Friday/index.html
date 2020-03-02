@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nested Divison</title>
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.main-div{
+width: 50vw;
+height: 100vh;
+margin: auto;
+background-color: black;
+position: relative;
+}
+
+.div1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 30vh;
+height: 30vh;
+background-color: white;
+}
+
+.div2{
+position: absolute;
+top: 0;
+left: 10%;
+width: 20vh;
+height: 20vh;
+background-color: indianred;
+}
+.div3{
+position: absolute;
+top: 0%;
+left: 0%;
+width: 10vh;
+height: 10vh;
+background-color: rgb(11, 236, 11);
+}
+
+</style>
+</head>
+<body>
+<div class="main-div">
+<div class="div1">
+<div class="div2">
+<div class="div3"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
