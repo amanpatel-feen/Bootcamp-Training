@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title> Digital Clock</title>
+</head>
+<body>
+    <h2 class="message" id="message"></h2>
+    <div class="hr"></div>
+    <h1 class="clock" id="clock"></h1>
+    <h2 class="date" id="date"></h2>
+
+    <script>
+        function clk(){
+            var h,m,s,d,c,me;
+        c=document.getElementById("clock");
+        d=new Date();
+        h=d.getHours();
+        m=d.getMinutes();
+        s=d.getSeconds();
+        if(s<10){
+            s="0"+s;
+        }
+
+        me="AM";
+        var h1=h;
+        if(h1>=12){
+            me="PM";
+        }
+        if(h1>12){
+            h=h-12;
+        }
+        if(h<10){
+            h="0"+h;
+        }
+        if(m<10){
+            m="0"+m;
+        }
+        time= h+":"+m+":"+s+" "+me; 
+        document.getElementById("clock").innerHTML= time;
+        setTimeout(clk,1000);
+
+
+        var wishes=["Good Morning","Good Afternoon","Good Evening","Good Night"];
+        console.log(h1);
+        if(h1<12)
+        {
+            var w1=wishes[0];
+        }
+        else if(h1<16)
+        {
+            var w1=wishes[1];
+        }
+        
+        else
+        {
+            var w1=wishes[2];
+        }
+        document.getElementById("message").innerHTML=w1;
+        }
+        clk();
+
+        function date(){
+            var d=new Date();
+            var day,month,year;
+            var m=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+            day=d.getDate();
+            month=d.getMonth();
+            month=m[month];
+            year=d.getFullYear();
+            var date1=day+" "+month+" "+year;
+            document.getElementById("date").innerHTML=date1;
+
+        }
+        date();
+
+        
+    </script>
+</body>
+</html>
