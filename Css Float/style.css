@@ -1,0 +1,311 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+body{
+    background-color:  rgb(243, 243, 244);
+    color: rgb(102, 106, 108);
+}
+.navbar
+{
+    height: 100vh;
+    width: 15%;
+    background-color:rgb(44, 62, 81);
+    padding: 1rem;
+    float: left;
+    
+}
+
+.img-circle{
+    border-radius: 50%;
+    display: block;
+    
+
+}
+
+.header{
+
+    background-color: rgb(32, 51, 70);
+    padding-left: 2rem;
+    box-sizing: border-box  ;
+    
+}
+
+.userdetail{
+    width:202px;
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke ;
+}
+ul
+{
+    list-style-type: none;
+}
+a i{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+}
+a span{
+    color:rgb(102, 106, 108);
+}
+
+.anc
+{
+    display: block;
+}
+/* .ul li a i{
+    padding-right: 100px;
+} */
+.ul1 li{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.top-navbar{
+    background-color: rgb(243, 243, 244);
+    left:205px;
+    /* margin-top: 0px; */
+    /* height: 100%; */
+    position: fixed;
+    width:100%;
+
+}
+
+input[type=text]
+{
+    height: 4rem;
+    width: 20rem;
+    background-color: rgb(243, 243, 244);
+    border: none;
+    outline: none;
+    
+}
+.yoe{
+    display: block;
+    float: right;
+    font-size: 12px;
+    background-color: lightgray ;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    /* margin-left: 400px; */
+}
+.bar{
+    /* background-color: lightcoral; */
+    margin:10px 10px;
+    display: inline;
+}
+.bar{
+    background-color: rgb(0, 190, 153);
+    
+}
+.bar1{
+    height: 20px;
+    width: 300px;
+}
+/* .wrapper1{
+    display: block;
+} */
+.wrapper2 li{
+    display: block;
+    float: left;
+    /* margin-right: 90px; */
+}
+.li1{
+    /* float: right!important; */
+    display: block;
+    padding: 5px 30px 0px 0px;
+    margin-top:1rem;
+    /* margin-left: 90px; */
+
+} 
+.sp1{
+    margin-left:580px;
+}
+.sign-out{
+    margin-top: 100px;
+    padding:5px 5px;
+}
+
+.clr{
+    margin-left:70px;
+    margin-right:50px;
+    
+}
+.h21
+{
+    padding-top:70px;
+    /* margin-left: 100px; */
+    /* padding-bottom: 1px; */
+}
+.heirarchy{
+    float: right;
+    margin-top:220px
+}
+
+.dash{
+    left:205px;
+    background-color: white;
+    /* padding-left: 2rem; */
+    margin-left: 20px;
+    padding-bottom: 10px
+}
+
+
+.content{
+    margin-left:205px;
+    margin-top:30px;
+    
+    
+}
+.left-box{
+    padding:60px;
+    background-color: white;
+    width: 60%;
+    /* height:100%; */
+    display: block;
+    float:left!important;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+
+.userimage
+{
+    clear: both;
+    display: block;
+    float: left;
+    height: 100%;
+    padding:0px 0px 20px 0px;
+    margin-right: 100px;
+}
+.u_img{
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left:5px;   
+
+}
+
+.mail-contact{
+    font:12px "open-sans";
+    margin-left:15px;
+}
+.mail
+{
+    border: .5px gray solid;
+    text-align: center;
+    padding:1px 5px;
+    border-radius: 2px;
+    
+    /* border-top-left-radius: 2px; */
+    
+}
+.call
+{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0 ;
+    color: rgb(102, 106, 108);
+}
+.email
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0 ;
+    color: rgb(102, 106, 108);
+
+}
+
+
+
+
+.progres h5{
+    text-align: center;
+    margin-top: 10px;
+}
+progress{
+    -webkit-appearance: none;
+    margin-top: 10px;
+    height: 7px;
+}
+::-webkit-progress-value{
+    background-color: rgb(0, 190, 153);
+}
+::-webkit-progress-bar{
+    background-color: rgb(244, 244, 244);
+}
+
+
+.userdetails{
+    margin-top:20px;
+    
+}
+.uinfo
+{
+    margin-top:20px;
+}
+
+.ttn,.beach,.competency,.newer-id{
+    padding:5px;
+}
+
+.ttn-image
+{
+    margin-right: 10px;
+}
+.newer-image{
+    margin-right:5px;
+}
+.right-box{
+    /* float: right; */
+    background-color: white;
+    /* height:100%; */
+    width: 30%;
+    display: inline-block;
+    height: 390px;
+    /* padding: 10px; */
+    margin-left:40px;
+}
+
+.mentor,.hr{
+    padding:10px;
+    float: left;
+}
+.stake{
+    padding:20px;
+}
+.m-class{
+    margin-top:20px;
+}
+
+.hr-class{
+    margin-top:20px;
+}
+.me-image{
+    border-radius: 50%;
+}
+.hr-image{
+    border-radius: 50%;
+}
+.fa-phone{
+    margin-top:4px;
+}
+.me-details,.hr-details{
+    padding-top:10px;
+}
+.horizontal{
+    clear: both;
+    width:80%;
+    margin-left: 35px;
+    margin-top:20px;
+    background-color: yellow;
+}
+.name{
+    color: blue;;
+}
+
+
+
