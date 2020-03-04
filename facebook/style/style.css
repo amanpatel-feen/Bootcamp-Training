@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.clr
+{
+    clear: both;
+}
+.navbar{
+    background-color:rgb(72, 83, 160);
+
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.main
+{
+    display: flex;
+}
+
+form input{
+    display: block;
+    /* float:left; */
+    /* clear: both; */
+
+}
+header{
+    /* overflow: auto; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    background-color: rgb(72, 83, 160);
+    
+}
+.text-area, .boxes{
+    display: flex;
+}
+
+.info
+{
+    color: #0e385f;
+    /* font-size: 80px; */
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 30px;
+    width: 400px;
+}
+.logo a span{
+    font-size:40px;
+    color: white;
+    
+}
+.logo{
+    margin-right: 500px;
+    padding: 20px 0px;
+    margin-left: 195px;
+}
+
+.login-boxes{
+    margin-top:5px;
+    
+}
+.mail input,.psswd1 input{
+    width: 150px;
+    height: 20px;
+
+}
+.mail,.psswd1{
+    margin-right: 15px;
+}
+.bttn .button{
+    width: 50px;
+    height: 25px;
+    
+    
+    
+}
+.bttn .button input{
+    color: white;
+    background-color: rgb(70, 82, 181);
+    border: 0px;
+    font-size: 12px;
+    padding:3px;
+}
+
+.email-phone span,.psswd span{
+    color: white;
+    font-size: 14px;
+    font-weight:200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email-phone
+{
+    margin-right: 70px;
+    /* padding-bottom: 5px; */
+}
+
+.fa1{
+    margin-left:165px;
+    padding-bottom: 10px;
+    
+}
+.fa1 span{
+    color: white;
+    font-size: 14px;
+}
+
+.boxes{
+    margin-top: 8px;
+}
+.row{
+    display: flex;
+}
+.col-left{
+    /* float:left; */
+    height:500px;
+    padding: 30px;
+
+    width:50%;
+    padding-left: 200px;
+}
+
+.image1 {
+    width:537px;
+    height: 195px;
+    /* border:2px solid gray; */
+}
+
+
+.col-right{
+    padding:30px;
+    padding-left:100px
+}
+
+.col-right h1, h4{
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.first-box{
+    /* padding-right:20px; */
+    display: flex;
+}
+.second-box input,.passwd-box input{
+    width: 394px;
+    
+}
+.second-box, .passwd-box{
+    padding-top: 10px;
+}
+.first-box .text-box1{
+    /* display: block; */
+    margin-right: 12px;
+}
+
+.bday{
+
+    padding-top:8px;
+    font-weight: 200;
+    font-size: 20px;
+}
+.bday1 span{
+    font-size: 16px;
+    font-weight: 800;
+}
+#day, #month, #year{
+    background-color: white;
+    margin-right: -5px;
+    /* width: 70px;*/
+    height: 30px; 
+    padding-left: 10px;
+}
+#day{
+    /* height: 30px; */
+    width: 60px;
+}
+#month
+{
+    width:70px;
+}
+#year{
+    width: 65px;
+}
+/* #day option, #month option, #year option{
+    font-size: 400px;
+} */
+
+
+
+.container2
+{
+    background-image: linear-gradient(to bottom, #fff, #d6daef);
+    /* height: 600px; */
+    margin-top:80px;
+}
+.first-box:first-child{
+    float: left;
+    
+}
+
+.gender1{
+    /* padding-top:10px; */
+    
+    padding-bottom:10px;
+}
+.gender1 span{
+    font-weight: 800;
+    font-size: 16px;
+}
+.gender{
+    padding-top:10px;
+    
+}
+
+
+.sub-gender{
+    display:flex;
+    /* padding:10px; */
+}
+.male,.female,.custom,.fa{
+    padding:10px;
+}
+
+.privacy-policy{
+    width: 290px;
+}
+.privacy-policy,span{
+    font-size: 12px;
+    word-spacing: 1px;
+    color: gray;
+    
+}
+
+.signup{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.signup button{
+    height: 40px;
+    width: 194px;
+    background-color: rgb(61, 150, 70);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.celeb{
+    padding-top: 10px;
+}
+.form input[type=text]{
+    padding: 14px 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 12px;
+    /* padding-top: 10px; */
+
+}
