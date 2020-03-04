@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.clearfix, .clearfix::before,.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.main_nav{
+background-color:lightgray;
+color:gray;
+overflow:auto;
+}
+  
+.main_nav a{
+    text-decoration: none;
+    color:gray;
+    display:block;
+    padding:10px 5px 10px 0px;
+    text-align:center;
+    font-size:13px;
+    line-break: 10px;
+}
+ 
+.main_nav ul{
+    list-style:none;
+    /* float:right; */
+    padding-left: 100px;
+}
+.main_nav ul li{
+    
+    float:left;
+}
+
+.main_nav ul li i{
+    padding-left: 35px;
+}
+a .fa{
+    color:rgb(22, 189, 22);   
+    padding-left:0px; 
+} 
+a .fa-facebook{
+    margin-left:250px;
+}
+
+
+.secondry_nav{
+    background-color:rgb(22,189,22);
+    overflow:auto;
+    color:white;
+    padding-left:100px;
+    
+   
+}
+.secondry_nav ul{
+    list-style:none;
+    
+    
+    
+
+    
+}
+.secondry_nav  ul li{
+    float:left;
+}
+.secondry_nav a{
+    text-decoration: none;
+    color:white;
+    display:block; 
+    padding:10px 50px 10px 0px;
+    text-align:center;
+    font-size:13px;
+    
+}
+.secondry_nav .fa{
+    color:white;
+    padding-left:0;
+}
+h1{
+    color:rgb(22,189,22);
+    
+}
+h4{
+    color:#ccc;
+     padding-left:30px;
+    padding-top:0px;
+    padding-bottom:0px;
+     
+}
+.fa-graduation-cap ,.fa-phone ,.fa-map-marker{
+    color:rgb(22,189,22);
+    
+}
+.row{
+    clear: both;
+}
+
+.column1 {
+float: left;
+width: 50%;
+padding-left: 100px;
+padding-top:20px;
+height: 100px; 
+margin-right: 27px;
+}
+.column2 {
+float: left;
+width: 16%;
+padding-top: 30px;
+height: 100px; 
+}
+.column3 {
+
+float: left;
+width: 16%;
+/* padding: 10px; */
+padding-top:35px;
+height: 100px; 
+}
+.column4 {
+float: left;
+width: 16%;
+padding-top: 40px;
+height: 100px; 
+padding-left: 15px;
+}
+.cm-col{
+    background-color: white;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.row .fa{
+float:left;
+}
+
+
+.btn{
+padding:7px 17px;
+border:1px solid rgb(22, 189, 22);
+background-color:white;
+color:rgb(22, 189, 22);
+}
+.btn-nav
+{
+    padding:7px 17px;
+    border:1px solid rgb(22, 189, 22);
+    background-color:white;
+    color: green;
+    /* margin-top: 40px; */
+}
+.page-content{
+    clear: both;
+}
+.container3{
+    background: url('/img/12.jpg') no-repeat center center/cover;
+    height:600px;
+    /* margin-top:30px; */
+    /* position: absolute; */
+}
+.container3 .page-content{
+    padding-top:170px;
+    text-align: center;
+    color: white;
+}
+.container3 .page-content p{
+    line-height: 1.7em;
+    padding-bottom: 20px;
+}
+.line{
+    padding-left: 20px;
+}
+/* .s-zone{
+    margin-left: 20px;
+}*/
+.wrap{
+    clear: both;
+}
+ /* .g_cap{
+    
+    padding-right: 30px;
+}  */
+
+.column1 i{
+    margin-right:20px;
+}
+
+/* .column1 h5{
+    color: gray;
+} */
+.cm-col p{
+    color: gray;
+    /* padding-top: 10px; */
+    text-align: left;
+    margin-left:30px;
+    /* display: inline-block; */
+}
+.btn
+{
+    display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background:lightgreen;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn1{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background:transparent;
+    padding: 13px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.sub-container2{
+    margin-left:200px;
+    margin-right:190px;
+}
+.container4{
+    margin-top: -50px;
+
+}
+.box{
+    height: 250px;
+    /* margin-right:10px; */
+    width:calc(100%/4);
+    border: none;
+    /* background-color: teal; */
+    float: left;
+    /* display: inline-block; */
+    /* margin-right: -4px; */
+    /* overflow: auto; */
+    
+}
+.box:last-child{
+    margin-right:0px;
+}
+.future{
+    background-color: blue;
+}
+.future-students{
+    background-color: rgb(247, 85, 112);
+}
+.courses{
+    background-color: greenyellow;
+}
+.events{
+    background-color: orange;
+}
+
+.box-content
+{
+    padding: 20px;
+    color: white;
+}
+.box-content i {
+    padding-left: 70px;
+    padding-bottom:20px;
+}
+.box-content  .fa {
+    color: white;
+}
+.box-content h3,p{
+    text-align: center;
+    padding-bottom: 20px;
+}
