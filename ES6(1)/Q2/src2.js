@@ -1,17 +1,18 @@
 
-
 // Answer 2
 
 console.log("answer 2");
- 
-let arr = [];
-arr = document.querySelectorAll("ul > li") ;
-console.log(arr);
+var ar = [];
+ar = document.querySelectorAll("li");
+//  console.log(ar);
+for(i = 0; i < ar.length; i++){
+  let temp=ar[i].dataset.time.split(":");
+console.log(temp[1])
 
+if(ar[i].textContent=="Flexbox Video"){
+console.log(ar[i]);
+}
 
-// function selecting(item){
-//     if(item.textContent==="Flexbox Video")
-//     return value;
-// }
+console.log(ar[i].dataset.time)
+}
 
-// let result = arr[0].forEach(selecting);
